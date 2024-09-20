@@ -12,3 +12,5 @@ T
 $src/main/java/org/example/Snake.java,8\f\8ff59958c9b407f7b3914386f76bc50765e5f5b2
 S
 #src/main/java/org/example/Food.java,1\9\190b40a772bf2e08319a2cd0d0058178b178ade0
+X
+(src/main/java/org/example/GameState.java,6\7\670f8668900481619cabef7a5d5c6b4c4bdfd59f
