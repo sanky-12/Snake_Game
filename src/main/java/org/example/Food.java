@@ -12,7 +12,7 @@ public class Food {
         spawn(width, height);
     }
 
-    private void spawn(int width, int height) {
+    public void spawn(int width, int height) {
         Random rand = new Random();
         int x = rand.nextInt(width/unitSize)*unitSize;
         int y = rand.nextInt(height/unitSize)*unitSize;

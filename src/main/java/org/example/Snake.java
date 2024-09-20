@@ -45,13 +45,13 @@ public class Snake {
     public boolean hasCollision(int width, int height){
         Point head = getHead();
         //Check ofr hte borders
-        if(head.x < 0 || head.x > width || head.y < 0 || head.y> height){
+        if(head.x < 0 || head.x >= width || head.y < 0 || head.y>= height){
             return true;
         }
 
         //Check for itself collision
-        for (Point point : body) {
-            if (head.equals(point)) {
+        for (int i = 1; i < body.size(); i++) {
+            if (head.equals(body.get(i))) {
                 return true;
             }
         }

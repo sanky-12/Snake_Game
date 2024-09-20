@@ -1,3 +1,19 @@
 
+—	java:S116"PRename this field "WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª¿€ıÿÿÿÿ8ÊàîŒ¡2J$2ce050d6-bd77-4668-9896-3705bae7ace5
+“	java:S116"QRename this field "HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÏìÉ8ÍàîŒ¡2J$dea86a0d-7691-434b-9390-ff44276cd83e
+–	java:S116"TRename this field "UNIT_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„±¨„8ìïŒ¡2J$f812b5b4-0aa2-4661-adcf-100ee2b72f83
+—	java:S116"PRename this field "DELAY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ÖûÏÿÿÿÿÿ8ÎàîŒ¡2J$57045bd5-2369-4b3e-889a-f1f6c770fd18
+i
+java:S1170"!Make this final field static too.(ª¿€ıÿÿÿÿ8ñàîŒ¡2J$4569fa82-967a-483d-b2db-a5993a9c6691
 d
-java:S2094"BRemove this empty class, write its code or make it an "interface".(ôØù˜ıÿÿÿÿ8ÌÔñÌ2
+java:S1170"!Make this final field static too.(ÓÏìÉ8ûàîŒ¡2J$f57107d5-ac81-4815-ac8f-f77fb4714443
+d
+java:S1170"!Make this final field static too.(„±¨„8 ìïŒ¡2J$fd5d039f-1cc7-45f1-bbae-5adee6d85843
+i
+java:S1170"!Make this final field static too.(»ÖûÏÿÿÿÿÿ8ûàîŒ¡2J$47e493da-f16c-4467-9df0-b1467bacbbc0
+É
+java:S1186]"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğÀ¨şÿÿÿÿ8ŠáîŒ¡2J$0cc96932-ddb6-4828-aea0-7f3f95f763e1
+É
+java:S1186`"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(§€Åÿÿÿÿÿ8‹áîŒ¡2J$fe47df72-cad6-4383-b3ac-f972f1e75f09
+Œ
+java:S3252g"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8âîŒ¡2J$59445433-3177-48b2-ab9b-acd7d40f97df
