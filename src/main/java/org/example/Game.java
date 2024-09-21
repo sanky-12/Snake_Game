@@ -11,11 +11,9 @@ public class Game extends JPanel implements ActionListener, KeyListener {
     private final int WIDTH = 800;
     private final int HEIGHT = 600;
     private final int UNIT_SIZE = 20;
-    private final int DELAY = 200;
-
+    private final int DELAY = 300;
     private Snake snake;
     private Food food;
-
     private boolean running = false;
     private int direction = KeyEvent.VK_RIGHT;
     private Timer timer;
@@ -26,36 +24,47 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         setBackground(Color.BLACK);
         setFocusable(true);
         addKeyListener(this);
+        int startX = WIDTH / 2;
+        int startY = HEIGHT / 2;
+        snake = new Snake(startX, startY, UNIT_SIZE);
         initializeGame();
     }
 
     private void initializeGame() {
-        snake = new Snake(WIDTH/2, HEIGHT/2, UNIT_SIZE);
+
+        if (snake == null) {
+            int startX = WIDTH / 2;
+            int startY = HEIGHT / 2;
+            snake = new Snake(startX, startY, UNIT_SIZE);
+        }
+
+        snake.reset(WIDTH / 2, HEIGHT / 2);
         food = new Food(WIDTH, HEIGHT, UNIT_SIZE);
         direction = KeyEvent.VK_RIGHT;
         running = true;
-        timer = new Timer(DELAY, this);
+
+
+        if (timer == null) {
+            timer = new Timer(DELAY, this);
+        }
+        timer.setDelay(DELAY);
         timer.start();
     }
+
 
     @Override
     public void paintComponent(Graphics g){
         super.paintComponent(g);
-//        if(running){
-//            snake.draw(g);
-//            food.draw(g);
-//        }
-//        else {
-//            showGameOver(g);
-//        }
+
         switch (gameState){
             case START_SCREEN:
                 showStartScreen(g);
                 break;
             case PLAYING:
                 if(running){
-                    snake.draw(g);
+                    snake.draw(g, direction);
                     food.draw(g);
+                    showScore(g);
                 }
                 break;
             case GAME_OVER:
@@ -63,6 +72,12 @@ public class Game extends JPanel implements ActionListener, KeyListener {
                 break;
         }
 
+    }
+
+    public void showScore(Graphics g) {
+        g.setColor(Color.WHITE);
+        g.setFont(new Font("Ink Free", Font.BOLD, 35));
+        g.drawString("Score: " + snake.getCurrentScore(), 10, 30);
     }
 
     public void showStartScreen(Graphics g) {
@@ -84,6 +99,10 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         String restartText = "Press Enter to Restart";
         int xRestart = (WIDTH - metrics.stringWidth(restartText)) / 2;
         g.drawString(restartText, xRestart, HEIGHT / 2 + 50);
+
+        g.setFont(new Font("Ink Free", Font.BOLD, 30));
+        g.drawString("Score: " + snake.getCurrentScore(), xRestart, HEIGHT / 2 + 100);
+        g.drawString("High Score: " + snake.getHighScore(), xRestart, HEIGHT / 2 + 150);
     }
     @Override
     public void actionPerformed(ActionEvent e){
@@ -105,11 +124,21 @@ public class Game extends JPanel implements ActionListener, KeyListener {
     }
 
     public void checkFood() {
-        if(snake.getHead().equals(food.getPosition())){
-            snake.grow();
-            food.spawn(WIDTH, HEIGHT);
+        if (snake.getHead().equals(food.getPosition())) {
+            snake.grow(direction);
+            food.spawn(WIDTH, HEIGHT, snake.getBody());
+            snake.incrementScore();
+
+
+            if (snake.getCurrentScore() % 5 == 0) {
+                int newDelay = DELAY - (snake.getCurrentScore() / 5) * 20;
+                if (newDelay > 50) {
+                    timer.setDelay(newDelay);
+                }
+            }
         }
     }
+
 
     @Override
     public void keyPressed(KeyEvent e){

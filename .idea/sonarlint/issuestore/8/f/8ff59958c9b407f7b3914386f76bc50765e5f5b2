@@ -1,2 +1,18 @@
 
-i	java:S131""Add a default case to this switch.(Ζσυµύÿÿÿÿ8ΉΞΛέ 2J$d8857c9e-1b84-4f47-817f-47b17f63b2a2
+³
+java:S1319x"qThe return type of this method should be an interface such as "List" rather than the implementation "LinkedList".(Β8½δχ΅2J$cbf0d04a-7641-4341-bbed-8b54fc454e5a
+
+java:S1659"EDeclare "headDown" and all following declarations on a separate line.(•µΩϊÿÿÿÿ8μηχ΅2J$74b34884-bc83-4f9c-ba00-5f449d984c39
+
+java:S1659"EDeclare "tailDown" and all following declarations on a separate line.(¤ψªςύÿÿÿÿ8μηχ΅2J$c8235a24-5809-43bb-8dcb-db03ed0e9354
+l
+java:S1659"*Declare "bodyVertical" on a separate line.(®Βu8μηχ΅2J$76fe9754-6507-4beb-a107-1d24d68e8d9a
+
+java:S1659"JDeclare "cornerUpRight" and all following declarations on a separate line.(ψ Φΐ8νηχ΅2J$b0e9510e-28f0-4eb0-a54f-eb28d5009aa7
+i	java:S1310""Add a default case to this switch.(Ζσυµύÿÿÿÿ8¤Β™΅2J$c67789d8-281e-4032-b256-2094c2a7ef10
+i	java:S131R""Add a default case to this switch.(—ιύÿÿÿÿ8¬¤Β™΅2J$d55b50e3-cb17-4dca-b5c8-55369b6ef952
+{
+java:S1172|"8Remove these unused method parameters "width", "height".(ωοµ8¤ΜΖ™΅2J$3d7f9ddd-1327-4e4b-8882-7a2310c24ce0
+–
+java:S3776”"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(θΐςΣ8µ¤Β™΅2J$9a1662e0-b732-4a80-9ba7-6db348370eaf
+j	java:S131""Add a default case to this switch.(Ζσυµύÿÿÿÿ8Έ¤Β™΅2J$461b334a-de50-41c3-93ca-a4dd14dd40bb

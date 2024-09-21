@@ -1,24 +1,25 @@
 
-—	java:S116"PRename this field "WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª¿€ıÿÿÿÿ8Œ€¡2J$334eb077-e1a8-473c-b306-8c6525435900
-“	java:S116"QRename this field "HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÏìÉ8Œ€¡2J$680a34ca-659a-4d65-a1e3-f479561c06e7
-–	java:S116"TRename this field "UNIT_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„±¨„8€¡2J$1d57ca0a-09c0-4b0b-85c8-aa0eb8528191
-—	java:S116"PRename this field "DELAY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±­÷øÿÿÿÿ8€¡2J$b404dd38-2b75-48b7-9e4b-52960e141fa9
+‘
+java:S1192O"IDefine a constant instead of duplicating this literal "Ink Free" 4 times.(Ä¢Êøÿÿÿÿ8”Ç«™¡2J$a8c85235-afa9-45a6-aa03-5ea2c6528c0f
+—	java:S116"PRename this field "WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª¿€ıÿÿÿÿ8’ƒ¡™¡2J$0605c851-2e67-4cff-88a1-18eebb74c852
+“	java:S116"QRename this field "HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÏìÉ8’ƒ¡™¡2J$579d44d5-4e04-4742-9bb4-bb69d3d2ea4a
+–	java:S116"TRename this field "UNIT_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„±¨„8’ƒ¡™¡2J$04cc4b0e-b4d4-40b4-b985-c03e7fbc959b
+’	java:S116"PRename this field "DELAY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­œ¨8“ƒ¡™¡2J$2fde819a-c81c-44ef-951b-f2bf71c16f93
 i
-java:S1170"!Make this final field static too.(ª¿€ıÿÿÿÿ8Ÿ€¡2J$1c0a663b-b2f6-479f-b050-4079d9bcb0a7
+java:S1170"!Make this final field static too.(ª¿€ıÿÿÿÿ8™ƒ¡™¡2J$125250d7-b072-40a7-9501-4eeb36ba3043
 d
-java:S1170"!Make this final field static too.(ÓÏìÉ8Ÿ€¡2J$9a14edb1-4113-4e02-9774-c5fdddf360df
+java:S1170"!Make this final field static too.(ÓÏìÉ8™ƒ¡™¡2J$91624ba7-8781-4047-aeb6-c3f86645b869
 d
-java:S1170"!Make this final field static too.(„±¨„8Ÿ€¡2J$a369f5cc-37ca-4dcc-9470-092f032a50d7
-i
-java:S1170"!Make this final field static too.(±­÷øÿÿÿÿ8Ÿ€¡2J$5bcb1a1f-4285-48e8-8844-7c4abedae14f
+java:S1170"!Make this final field static too.(„±¨„8™ƒ¡™¡2J$1339d5aa-2792-4deb-8dfd-9ac5a8cc2c13
+d
+java:S1170"!Make this final field static too.(­œ¨8™ƒ¡™¡2J$96dde289-3af9-421e-bfc4-8f8cd42c0e21
 Ê
-java:S1186‘"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğÀ¨şÿÿÿÿ8¤€¡2J$bfafc32a-1e59-4a6b-9306-b0b49dc671ad
+java:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğÀ¨şÿÿÿÿ8ëÇ«™¡2J$124d1626-06e1-43ff-974b-0864af33ccab
 Ê
-java:S1186”"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(§€Åÿÿÿÿÿ8¥€¡2J$189509d3-ef7c-48b9-85bf-a4dc90c89c03
+java:S1186±"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(§€Åÿÿÿÿÿ8ëÇ«™¡2J$7aeb7e30-aab6-426d-949d-f7d09813fa19
 o
-java:S1948"'Make "snake" transient or serializable.(¬¯ß©ùÿÿÿÿ8¬€¡2J$2e0b12e5-d0b0-46b4-9a30-dc3283a6cfcb
+java:S1948"'Make "snake" transient or serializable.(¬¯ß©ùÿÿÿÿ8ğÇ«™¡2J$4a9cb200-17de-4578-95ac-a153ea25aa7b
 n
-java:S1948"&Make "food" transient or serializable.(ø‰ß—ûÿÿÿÿ8¬€¡2J$ee44d5fb-5637-4ac8-ad2c-b30f02cebfa8
-ƒ	java:S125,"<This block of commented-out lines of code should be removed.(‰÷¿Ûùÿÿÿÿ8À€¡2J$d978d2db-f018-4d99-b3cf-15c781b4a3bf
+java:S1948"&Make "food" transient or serializable.(ø‰ß—ûÿÿÿÿ8ƒ¡™¡2J$9cf41fd9-8a2e-4865-8c4b-0d5502431f8e
 
-java:S3252›"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8÷€¡2J$f2dba4ce-a9f6-4636-a835-1957fbe03f83
+java:S3252¸"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8¹È«™¡2J$901823d4-bb45-46fd-b0c4-60a5c5258398
