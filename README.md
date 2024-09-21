@@ -60,12 +60,17 @@ A classic Snake Game implemented in Java using `Swing` for the graphical interfa
 - The project structure follows a simple MVC-like pattern:
     ```scss
     ├── src
-│   └── org
-│       └── example
-│           ├── Game.java        // Main class that runs the game
-│           ├── Snake.java       // Snake object and logic
-│           ├── Food.java        // Food object and logic
-│           └── GamePanel.java   // Handles rendering and game updates
-└── resources
-    └── images                  // Image assets for the snake graphics
+    │   └── org
+    │       └── example
+    │           ├── Game.java        // Main class that runs the game
+    │           ├── Snake.java       // Snake object and logic
+    │           ├── Food.java        // Food object and logic
+    │           └── GamePanel.java   // Handles rendering and game updates
+    └── resources
+        └── images                  // Image assets for the snake graphics
 
+### Key Classes
+- Game.java: The entry point of the game, initializes the game window and starts the game loop.
+- Snake.java: Represents the snake's body and movement logic. Also handles collision detection and screen wrapping.
+- Food.java: Represents the food that the snake consumes.
+- GamePanel.java: Handles all graphical rendering and game updates on the screen.
