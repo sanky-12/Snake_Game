@@ -12,8 +12,6 @@ A classic Snake Game implemented in Java using `Swing` for the graphical interfa
 - [Project Structure](#project-structure)
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - Classic snake game mechanics
@@ -74,3 +72,10 @@ A classic Snake Game implemented in Java using `Swing` for the graphical interfa
 - Snake.java: Represents the snake's body and movement logic. Also handles collision detection and screen wrapping.
 - Food.java: Represents the food that the snake consumes.
 - GamePanel.java: Handles all graphical rendering and game updates on the screen.
+
+## Screenshots
+
+## Technologies Used
+- Java: Main programming language
+- Swing: For the graphical user interface
+- IntelliJ IDEA: For development and running the project
