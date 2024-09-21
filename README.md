@@ -43,3 +43,29 @@ A classic Snake Game implemented in Java using `Swing` for the graphical interfa
    ```bash
    git clone https://github.com/yourusername/snake-game-java.git
    cd snake-game-java
+2. Open the project in IntelliJ IDEA (or any other IDE).
+3. Ensure your Java SDK is properly configured in your IDE.
+4. Run the Game.java file to start the game.
+
+## Running the Game
+
+1. Compile and run the project using the IDE's built-in run configurations or use the following command in the terminal if you're using javac:
+    ```bash
+    javac -d bin src/org/example/*.java
+    java -cp bin org.example.Game
+2. Use the arrow keys (Up, Down, Left, Right) to move the snake.
+3. The snake will grow each time it eats food, and the score will increase.
+
+## Project Structure
+- The project structure follows a simple MVC-like pattern:
+    ```scss
+    ├── src
+│   └── org
+│       └── example
+│           ├── Game.java        // Main class that runs the game
+│           ├── Snake.java       // Snake object and logic
+│           ├── Food.java        // Food object and logic
+│           └── GamePanel.java   // Handles rendering and game updates
+└── resources
+    └── images                  // Image assets for the snake graphics
+
